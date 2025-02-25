@@ -1,0 +1,73 @@
+Output - power.c
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ gcc power.c -o power
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./power
+Enter the base: 2
+Enter the exponent: 4
+
+OUTPUT
+----------------------------------
+The result is 16
+----------------------------------
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./power
+Enter the base: 6
+Enter the exponent: 7
+
+OUTPUT
+----------------------------------
+The result is 279936
+----------------------------------
+
+
+
+
+
+Output - sum_of_square.c
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ gcc sum_of_square.c -o sum_of_square
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./sum_of_square 
+Enter the Num: 6
+
+OUTPUT
+----------------------------
+The result by using formula: 91
+The result by using loop: 91
+----------------------------
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./sum_of_square 
+Enter the Num: 91
+
+OUTPUT
+----------------------------
+The result by using formula: 255346
+The result by using loop: 255346
+----------------------------
+
+
+
+
+
+Output - leap_year.c
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ gcc leap_year.c -o leap_year
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./leap_year 
+Enter the year: 2100
+
+OUTPUT
+-----------------------------------
+2100 is not a leap year
+-------------------------------------
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./leap_year 
+Enter the year: 2024
+
+OUTPUT
+-----------------------------------
+2024 is a leap year
+-------------------------------------
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/T20$ ./leap_year 
+Enter the year: 2400
+
+OUTPUT
+-----------------------------------
+2400 is a leap year
+-------------------------------------
+

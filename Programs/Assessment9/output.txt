@@ -1,0 +1,87 @@
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/file_handling/dir$ ./main
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :1
+main_v1.txt 32
+read_v2.txt 32
+demo.txt 32
+case_conversion.txt 40
+demo1.txt 32
+demo4.txt 32
+doc_1.txt 32
+doc_1 32
+
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :2
+Enter the file name: doc_1
+Demo string 30 45.67
+N
+	Adding new line
+
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :3
+Enter the file name: doc_1.txt
+Deleted successfully
+
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :1
+main_v1.txt 32
+read_v2.txt 32
+demo.txt 32
+case_conversion.txt 40
+demo1.txt 32
+demo4.txt 32
+doc_1 32
+
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :4
+All files are removed successfully
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :1
+No files in the Directory.
+
+Operations
+1. Display the files
+2. Display the content in file
+3. Remove file
+4. Remove all File
+5. Exit
+
+Enter :5
+Exiting.....
+

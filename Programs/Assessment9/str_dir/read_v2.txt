@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+#define max_limit 100
+
+int main(){
+	
+	FILE* file = fopen("read_v2.txt","r+");
+	if(file==null){
+		perror("opening file: ");
+		return 1;
+	}
+	char* ch = (char*)malloc(sizeof(char)*max_limit);
+	if(ch==null){
+		perror("memory allocation failed: ");
+		fclose(file);
+		return 1;
+	}
+	
+	while(fgets(ch,max_limit,file)!=null){
+		printf("%s",ch);
+	}
+	return 0;
+}

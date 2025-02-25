@@ -1,0 +1,40 @@
+    free(buff);
+}
+
+
+
+
+
+int main() {
+    while (1) {
+        printf("File Operation\n");
+        printf("1. View File Info.\n");
+        printf("2. Process Files.\n");
+        printf("3. Append in a File.\n");
+        printf("4. Exit.\n");
+        printf("\n");
+	printf("Enter :");
+        int choice;
+        if (scanf("%d", &choice) != 1) {
+            while(getchar()!='\n');
+            printf("Invalid entry, enter only integer\n\n");
+            continue;
+        }
+        getchar();
+        if (choice == 1) {
+            view_files();
+        } else if (choice == 2) {
+            process_file();
+        } else if (choice == 3) {
+            file_append();
+        } else if (choice == 4) {
+            printf("Exiting....\n");
+            return 0;
+        } else {
+            printf("Invalid entry, enter only integer [1-4]\n");
+        }
+        printf("\n");
+    }
+}
+
+this a new string adding on feb 10demo string adding

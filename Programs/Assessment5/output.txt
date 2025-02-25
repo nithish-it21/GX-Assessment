@@ -1,0 +1,227 @@
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/Data_Structuring/struct$ ./need_to_delete 
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 4
+
+The list is empty
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 1
+Enter the nodes: 5
+Enter the data: 12
+Enter the data: 23
+Enter the data: 34
+Enter the data: 54
+Enter the data: 65
+
+Created successfully
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 4
+[ 12 23 34 54 65 ]
+
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 4
+[ 12 23 34 54 65 ]
+
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 6
+Current list elements: [ 12 23 34 54 65 ]
+
+
+	1. Replace by value
+	2. Replace by index
+	3. Return to main menu
+
+	Enter: 1
+
+
+Enter the value: 4555
+
+Enter the value to replace: 34
+
+Updated list elements: [ 12 23 4555 54 65 ]
+
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 6
+Current list elements: [ 12 23 4555 54 65 ]
+
+
+	1. Replace by value
+	2. Replace by index
+	3. Return to main menu
+
+	Enter: 3
+Invalid Entry
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 0001
+
+Empty the current list to add a new List
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 6
+Current list elements: [ 12 23 4555 54 65 ]
+
+
+	1. Replace by value
+	2. Replace by index
+	3. Return to main menu
+
+	Enter: 2
+
+Enter the index to replace: 3
+
+Enter the value: 21
+
+Updated list elements: [ 12 23 21 54 65 ]
+
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 3
+Current list elements: [ 12 23 21 54 65 ]
+
+Enter the index to delete: 3
+
+Updated list elements: [ 12 23 54 65 ]
+
+
+Deleted Successfully
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 1
+
+Empty the current list to add a new List
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 5
+
+List has been deleted successfully
+
+Menu
+---------------------------------------------
+1. Create a Linked List
+2. Insert into Linked List
+3. Delete Node in Linked List
+4. View Linked List
+5. Clear the Linked List
+6. Replace in List
+7. Exit
+---------------------------------------------
+
+Enter: 7
+Exited successfully
+

@@ -1,0 +1,65 @@
+			print_file();
+			printf("\n");
+		}
+		else if(choice == 4){
+			change_case();
+		}
+		else if (choice == 5) {
+    			if (remove("caseazAZ.txt") == 0) {
+        			using_current = 0;
+        			printf("\nThe file has been deleted successfully.\n\n");
+    			} else {
+        			perror("\nError deleting file: ");
+			       	printf("\n\n");
+    			}
+		}
+
+		else if(choice == 6){
+			printf("Exiting.......\n\n");
+			return 0;
+		}
+		else{
+			printf("Invalid entry, enter only integer\n\n");
+		}
+	}
+
+	return 0;
+}
+
+hvkjbjbv
+vchdj
+
+vsdojb 
+cdjobv
+sndvk 
+		}
+		else{
+			printf("Invalid entry, enter only integer\n\n");
+		}
+	}
+
+	return 0;
+}
+
+hvkjbjbv
+vchdj
+
+vsdojb 
+cdjobv
+sndvk 
+		}
+		else{
+			printf("Invalid entry, enter only integer\n\n");
+		}
+	}
+
+	return 0;
+}
+
+hvkjbjbv
+vchdj
+
+vsdojb 
+cdjobv
+sndvk 
+i am adding this string to a case_conversion file. If the file size exists 1024 bytee then the auto resizing function will became active to reduce the file size. the constraint set on the program was 1024 bytes.
