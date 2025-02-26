@@ -1,0 +1,239 @@
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 24
+
+Address:      192 168 123 123 
+Mask Address: 255 255 255 0 
+WildCard:     0 0 0 255 
+
+Network:      192 168 123 0 
+Min Host:     192 168 123 1 
+Max Host:     192 168 123 254 
+BroadCast:    192 168 123 255 
+Hosts/Net:    254
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.21.21 
+Enter the Subnet Mask[1-32]: 30
+
+Address:      192 168 21 21 
+Mask Address: 255 255 255 252 
+WildCard:     0 0 0 3 
+
+Network:      192 168 21 20 
+Min Host:     192 168 21 21 
+Max Host:     192 168 21 22 
+BroadCast:    192 168 21 23 
+Hosts/Net:    2
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 172.60.50.68
+Enter the Subnet Mask[1-32]: 24
+
+Address:      172 60 50 68 
+Mask Address: 255 255 255 0 
+WildCard:     0 0 0 255 
+
+Network:      172 60 50 0 
+Min Host:     172 60 50 1 
+Max Host:     172 60 50 254 
+BroadCast:    172 60 50 255 
+Hosts/Net:    254
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.172.123\
+Invalid data found.
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.172.123
+Enter the Subnet Mask[1-32]: 20
+
+Address:      192 168 172 123 
+Mask Address: 255 255 240 0 
+WildCard:     0 0 15 255 
+
+Network:      192 168 160 0 
+Min Host:     192 168 160 1 
+Max Host:     192 168 175 254 
+BroadCast:    192 168 175 255 
+Hosts/Net:    4094
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 28
+
+Address:      192.168.123.123.
+Mask Address: 255 255 255 240 
+WildCard:     0 0 0 15 
+
+Network:      192 168 123 112 
+Min Host:     192 168 123 113 
+Max Host:     192 168 123 126 
+BroadCast:    192 168 123 127 
+Hosts/Net:    14
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 23
+
+Address:      192.168.123.123.
+
+Mask Address: 255 255 254 0 
+WildCard:     0 0 1 255 
+
+Network:      192 168 122 0 
+Min Host:     192 168 122 1 
+Max Host:     192 168 123 254 
+BroadCast:    192 168 123 255 
+Hosts/Net:    510
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 25
+
+Address:      192.168.123.1796074848123.
+Mask Address: 255 255 255 128 
+WildCard:     0 0 0 127 
+
+Network:      192 168 123 0 
+Min Host:     192 168 123 1 
+Max Host:     192 168 123 126 
+BroadCast:    192 168 123 127 
+Hosts/Net:    126
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 24
+
+Address:      192.168.123.96837808
+Mask Address: 255 255 255 0 
+WildCard:     0 0 0 255 
+
+Network:      192 168 123 0 
+Min Host:     192 168 123 1 
+Max Host:     192 168 123 254 
+BroadCast:    192 168 123 255 
+Hosts/Net:    254
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 23
+
+Address:      192.168.123.123
+Mask Address: 255 255 254 0 
+WildCard:     0 0 1 255 
+
+Network:      192 168 122 0 
+Min Host:     192 168 122 1 
+Max Host:     192 168 123 254 
+BroadCast:    192 168 123 255 
+Hosts/Net:    510
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 12
+
+Address:      192.168.123.123
+Mask Address: 255 240 0 0 
+WildCard:     0.15.255.255
+
+Network:      192.160.0.0
+Min Host:     192.160.0.1
+Max Host:     192.175.255.254
+BroadCast:    192.175.255.255
+Hosts/Net:    1048574
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 23
+
+Address:      192.168.123.123
+Mask Address: 255.255.254.0
+WildCard:     0.0.1.255
+
+Network:      192.168.122.0
+Min Host:     192.168.122.1
+Max Host:     192.168.123.254
+BroadCast:    192.168.123.255
+Hosts/Net:    510
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the Ip Address: 192.168.12.12
+Enter the Subnet Mask[1-32]: 24
+
+Address:      192.168.12.12
+Mask Address: 255.255.255.0
+WildCard:     0.0.0.255
+
+Network:      192.168.12.0
+Min Host:     192.168.12.1
+Max Host:     192.168.12.254
+BroadCast:    192.168.12.255
+Hosts/Net:    254
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the IP Address: 192.145.123.123
+Enter the Subnet Mask[1-32]: 20
+
+Ip Address:   192.145.123.123
+Mask Address: 255.255.240.0
+WildCard:     0.0.15.255
+
+Network:      192.145.112.0
+Min Host:     192.145.112.1
+Max Host:     192.145.127.254
+BroadCast:    192.145.127.255
+Hosts/Net:    4094
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ gcc test.c -g -o test -lm
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the IP Address: 192.257.2345.245
+Invalid Ip Range.
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the IP Address: 3e2r.42r3wef.43re.34rewf
+Invalid data found.
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the IP Address: 192.168.12.12
+Enter the Subnet Mask[1-32]: 32
+
+Ip Address:   192.168.12.12
+Mask Address: 255.255.255.255
+WildCard:     0.0.0.0
+
+Hosts/Net:    1
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the IP Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 31
+
+Ip Address:   192.168.123.123
+Mask Address: 255.255.255.254
+WildCard:     0.0.0.1
+
+Network:      192.168.123.122
+Min Host:     192.168.123.122 
+Max Host:     192.168.123.123 
+Hosts/Net:    2
+
+nithish@genexis-HP-ProBook-440-14-inch-G9-Notebook-PC:~/Documents/ip_calc$ ./test
+Enter the IP Address: 192.168.123.123
+Enter the Subnet Mask[1-32]: 4
+
+Ip Address:   192.168.123.123
+Mask Address: 240.0.0.0
+WildCard:     15.255.255.255
+
+Network:      192.0.0.0
+Min Host:     192.0.0.1
+Max Host:     207.255.255.254
+BroadCast:    207.255.255.255
+Hosts/Net:    268435454
+
