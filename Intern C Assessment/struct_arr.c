@@ -13,7 +13,11 @@ void main(){
 
 	int size;
 	printf("\nEnter number of students: ");
-	scanf("%d",&size);
+	if(scanf("%d",&size)!=1){
+		printf("Invalid Entry, Enter Only Integer\n");
+		while(getchar()!='\n');
+		return;
+	}
 	if(size<=0){
 		printf("Invalid size, Need atleast one\n");
 		return;

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define max_limit 100
+#define max_limit 1000
 
 void main(){
 	int len;
@@ -23,7 +23,7 @@ void main(){
 	getchar();
 
 	int k = 2;
-	int* temp = (int*)malloc(k * sizeof(int));
+	int* temp = (int*)malloc(len * sizeof(int));
 
 	for(int i=k; i<len; i++){
 		temp[i-k] = arr[i];
@@ -80,9 +80,9 @@ void main(){
 	}
 	else if(found>=1){
 		printf("Performing Operation 2\n");
-		char* buff = (char*)malloc(sizeof(int) * max_limit);
+		char* buff = (char*)malloc(max_limit);
 		snprintf(buff,max_limit,"%d",sum);
-		unsigned int int_arr[strlen(buff)];
+		int int_arr[strlen(buff)];
 		for(int i=0; i<strlen(buff); i++){
 			int_arr[i] = buff[i] - '0';	
 		}
